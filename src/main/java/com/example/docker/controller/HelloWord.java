@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWord {
     @GetMapping("/")
     public String hello(){
-        return "Eu sou Full Cycle";
+        return "Eu estou tentando ser full Cycle";
     }
 }
